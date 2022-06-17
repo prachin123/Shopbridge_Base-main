@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Shopbridge_Base-main_API</name>
+    </assembly>
+    <members>
+        <member name="T:Shopbridge_Base_main_API.Controllers.InventoryController">
+            <summary>
+            If Version is not defined then get default version name is v1.0
+            </summary>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.#ctor(Shopbridge_Base_main_API.Data.ApplicationDbContext)">
+            <summary>
+            Dependancy Injection
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.CreateInventory(Shopbridge_Base_main_API.Models.Inventory)">
+            <summary>
+            Create
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.DeleteInventory(Shopbridge_Base_main_API.Models.Inventory)">
+            <summary>
+            Delete
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.GetInventory(System.Int32)">
+            <summary>
+            Get
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.GetInventorys">
+            <summary>
+            Get
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.InventoryExists(System.String)">
+            <summary>
+            Exists Name Wise
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.InventoryExists(System.Int32)">
+            <summary>
+            Exists ID Wise
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.Save">
+            <summary>
+            Save
+            </summary>
+            <param name="db"></param>
+        </member>
+        <member name="M:Shopbridge_Base_main_API.Repository.InventoryRepository.UpdateInventory(Shopbridge_Base_main_API.Models.Inventory)">
+            <summary>
+            Update
+            </summary>
+            <param name="db"></param>
+        </member>
+    </members>
+</doc>
