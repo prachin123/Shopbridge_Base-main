@@ -33,11 +33,13 @@ namespace Shopbridge_Base_main_WEB.Controllers
             return View();
         }
         #endregion
+        #region Error
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+        #endregion
         #region Upsert
         public async Task<IActionResult> Upsert(int? id)
         {
